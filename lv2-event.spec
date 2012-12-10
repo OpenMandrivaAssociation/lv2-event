@@ -54,3 +54,14 @@ rm -rf %{buildroot}
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Tue Apr 17 2012 Frank Kober <emuse@mandriva.org> 1.4-2
++ Revision: 791518
+- fixed build arch which is not noarch
+
+* Fri Feb 17 2012 Frank Kober <emuse@mandriva.org> 1.4-1
++ Revision: 776164
+- imported package lv2-event
+
